@@ -31,10 +31,24 @@ tf.summary.image("input_image", input_placeholder)
 normalized_image = tf.map_fn(lambda frame: tf.image.per_image_standardization(frame), input_placeholder)
 
 #TODO add conv layers here
-final_conv_layer = normalized_image # change me
+
+conv_layer_1 = tf.layers.conv2d(normalized_image,
+                                    filters=42,
+                                    kernel_size=(3, 3),
+                                    strides=(1, 1),
+                                    padding='same',
+                                    activation=tf.nn.relu)
+
+conv_layer_1_with_bn = tf.layers.batch_normalization(conv_layer_1, training=True)
+
+#final_conv_layer = normalized_image # change me
+
+pool_layer_1 = tf.layers.max_pooling2d(conv_layer_1_with_bn,
+                                           pool_size=(2,2),
+                                           strides=(2,2))
 
 # convert 3d image to 1d tensor (don't change batch dimension)
-flat_tensor = tf.contrib.layers.flatten(final_conv_layer)
+flat_tensor = tf.contrib.layers.flatten(pool_layer_1)
 
 #TODO improve fully connected layers
 ## Neural network hidden layers
@@ -53,7 +67,9 @@ loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(labels=label_on
 
 #TODO choose better backpropagation
 # backpropagation algorithm
-train = tf.train.GradientDescentOptimizer(0.001).minimize(loss)
+#train = tf.train.GradientDescentOptimizer(0.001).minimize(loss)
+
+train = tf.train.AdamOptimizer().minimize(loss)
 
 accuracy = dataUtils.accuracy(logits, label_one_hot)
 
