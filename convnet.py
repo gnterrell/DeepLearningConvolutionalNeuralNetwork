@@ -41,18 +41,51 @@ conv_layer_1 = tf.layers.conv2d(normalized_image,
 
 conv_layer_1_with_bn = tf.layers.batch_normalization(conv_layer_1, training=True)
 
+conv_layer_2 = tf.layers.conv2d(conv_layer_1_with_bn,
+                                    filters=42,
+                                    kernel_size=(3, 3),
+                                    strides=(1, 1),
+                                    padding='same',
+                                    activation=tf.nn.relu)
+
+conv_layer_2_with_bn = tf.layers.batch_normalization(conv_layer_2, training=True)
+
 #final_conv_layer = normalized_image # change me
 
-pool_layer_1 = tf.layers.max_pooling2d(conv_layer_1_with_bn,
+pool_layer_1 = tf.layers.max_pooling2d(conv_layer_2_with_bn,
+                                           pool_size=(2,2),
+                                           strides=(2,2))
+
+conv_layer_3 = tf.layers.conv2d(pool_layer_1,
+                                    filters=84,
+                                    kernel_size=(3, 3),
+                                    strides=(1, 1),
+                                    padding='same',
+                                    activation=tf.nn.relu)
+
+conv_layer_3_with_bn = tf.layers.batch_normalization(conv_layer_3, training=True)
+
+conv_layer_4 = tf.layers.conv2d(conv_layer_3_with_bn,
+                                    filters=84,
+                                    kernel_size=(3, 3),
+                                    strides=(1, 1),
+                                    padding='same',
+                                    activation=tf.nn.relu)
+
+conv_layer_4_with_bn = tf.layers.batch_normalization(conv_layer_4, training=True)
+
+#final_conv_layer = normalized_image # change me
+
+pool_layer_2 = tf.layers.max_pooling2d(conv_layer_4_with_bn,
                                            pool_size=(2,2),
                                            strides=(2,2))
 
 # convert 3d image to 1d tensor (don't change batch dimension)
-flat_tensor = tf.contrib.layers.flatten(pool_layer_1)
+flat_tensor = tf.contrib.layers.flatten(pool_layer_2)
 
 #TODO improve fully connected layers
 ## Neural network hidden layers
-hidden_layer_1 = tf.layers.dense(flat_tensor, 10, activation=tf.nn.relu)
+hidden_layer_1 = tf.layers.dense(flat_tensor, 100, activation=tf.nn.relu)
 
 ## Logit layer
 logits = tf.layers.dense(hidden_layer_1, 10)
@@ -129,5 +162,5 @@ with tf.Session() as sess:
             save_path = saver.save(sess, "model/model.ckpt")
 
         # stop training after 1,000 steps
-        if step_count > 10000:
+        if step_count > 5000:
             break
