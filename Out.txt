@@ -1,254 +1,236 @@
 C:\Users\Owner\AppData\Local\Programs\Python\Python35\python.exe C:/Users/Owner/Documents/DeepLearningConvolutionalNeuralNetwork/convnet.py
 Clearing folder logdir
-2018-03-02 07:44:20.946923: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX
+2018-03-03 13:55:23.847203: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX
 Step Count:10
-Training accuracy: 0.180000 loss: 2.435666
-Test accuracy: 0.180000 loss: 2.240725
+Training accuracy: 0.260000 loss: 2.383749
+Test accuracy: 0.240000 loss: 2.543635
 Step Count:20
-Training accuracy: 0.320000 loss: 1.898297
-Test accuracy: 0.240000 loss: 2.235082
+Training accuracy: 0.440000 loss: 1.857175
+Test accuracy: 0.320000 loss: 2.176842
 Step Count:30
-Training accuracy: 0.220000 loss: 1.945788
-Test accuracy: 0.200000 loss: 1.969894
+Training accuracy: 0.420000 loss: 1.640207
+Test accuracy: 0.360000 loss: 1.889186
 Step Count:40
-Training accuracy: 0.480000 loss: 1.518841
-Test accuracy: 0.360000 loss: 1.803517
+Training accuracy: 0.540000 loss: 1.498287
+Test accuracy: 0.320000 loss: 1.780554
 Step Count:50
-Training accuracy: 0.380000 loss: 1.681221
-Test accuracy: 0.240000 loss: 2.108322
+Training accuracy: 0.500000 loss: 1.544232
+Test accuracy: 0.420000 loss: 1.565285
 Step Count:60
-Training accuracy: 0.460000 loss: 1.617564
-Test accuracy: 0.340000 loss: 1.863627
+Training accuracy: 0.480000 loss: 1.462380
+Test accuracy: 0.440000 loss: 1.608876
 Step Count:70
-Training accuracy: 0.420000 loss: 1.632181
-Test accuracy: 0.340000 loss: 1.662464
+Training accuracy: 0.520000 loss: 1.211574
+Test accuracy: 0.500000 loss: 1.509029
 Step Count:80
-Training accuracy: 0.560000 loss: 1.285417
-Test accuracy: 0.480000 loss: 1.530625
+Training accuracy: 0.600000 loss: 1.266874
+Test accuracy: 0.440000 loss: 1.603019
 Step Count:90
-Training accuracy: 0.520000 loss: 1.359589
-Test accuracy: 0.460000 loss: 1.726559
+Training accuracy: 0.520000 loss: 1.313293
+Test accuracy: 0.400000 loss: 1.661156
 Step Count:100
-Training accuracy: 0.500000 loss: 1.419928
-Test accuracy: 0.460000 loss: 1.749937
+Training accuracy: 0.440000 loss: 1.369392
+Test accuracy: 0.460000 loss: 1.575276
 Step Count:110
-Training accuracy: 0.420000 loss: 1.497535
-Test accuracy: 0.460000 loss: 1.780222
+Training accuracy: 0.520000 loss: 1.236200
+Test accuracy: 0.480000 loss: 1.676691
 Step Count:120
-Training accuracy: 0.580000 loss: 1.259391
-Test accuracy: 0.320000 loss: 1.566736
+Training accuracy: 0.520000 loss: 1.216712
+Test accuracy: 0.460000 loss: 1.579867
 Step Count:130
-Training accuracy: 0.580000 loss: 1.120579
-Test accuracy: 0.460000 loss: 1.360126
+Training accuracy: 0.520000 loss: 1.349967
+Test accuracy: 0.360000 loss: 1.601670
 Step Count:140
-Training accuracy: 0.680000 loss: 1.042397
-Test accuracy: 0.540000 loss: 1.478298
+Training accuracy: 0.580000 loss: 1.091899
+Test accuracy: 0.480000 loss: 1.454938
 Step Count:150
-Training accuracy: 0.620000 loss: 1.117918
-Test accuracy: 0.380000 loss: 2.235982
+Training accuracy: 0.540000 loss: 1.383901
+Test accuracy: 0.580000 loss: 1.380903
 Step Count:160
-Training accuracy: 0.460000 loss: 1.293168
-Test accuracy: 0.400000 loss: 1.804811
+Training accuracy: 0.620000 loss: 1.138547
+Test accuracy: 0.500000 loss: 1.547960
 Step Count:170
-Training accuracy: 0.480000 loss: 1.569521
-Test accuracy: 0.380000 loss: 1.937450
+Training accuracy: 0.580000 loss: 1.018817
+Test accuracy: 0.460000 loss: 1.708387
 Step Count:180
-Training accuracy: 0.640000 loss: 1.018252
-Test accuracy: 0.420000 loss: 1.871519
+Training accuracy: 0.520000 loss: 1.325998
+Test accuracy: 0.480000 loss: 1.454059
 Step Count:190
-Training accuracy: 0.580000 loss: 1.240124
-Test accuracy: 0.440000 loss: 1.549209
+Training accuracy: 0.720000 loss: 1.013293
+Test accuracy: 0.420000 loss: 1.526196
 Step Count:200
-Training accuracy: 0.440000 loss: 1.243497
-Test accuracy: 0.620000 loss: 1.274365
+Training accuracy: 0.620000 loss: 1.028082
+Test accuracy: 0.500000 loss: 1.233587
 Step Count:210
-Training accuracy: 0.660000 loss: 0.909225
-Test accuracy: 0.460000 loss: 1.492187
+Training accuracy: 0.660000 loss: 0.909421
+Test accuracy: 0.480000 loss: 1.226200
 Step Count:220
-Training accuracy: 0.600000 loss: 0.944022
-Test accuracy: 0.640000 loss: 1.255138
+Training accuracy: 0.780000 loss: 0.693530
+Test accuracy: 0.680000 loss: 1.090574
 Step Count:230
-Training accuracy: 0.680000 loss: 1.104684
-Test accuracy: 0.500000 loss: 1.336150
+Training accuracy: 0.720000 loss: 0.778523
+Test accuracy: 0.440000 loss: 1.514391
 Step Count:240
-Training accuracy: 0.700000 loss: 1.003163
-Test accuracy: 0.500000 loss: 1.645880
+Training accuracy: 0.700000 loss: 0.948308
+Test accuracy: 0.580000 loss: 1.434058
 Step Count:250
-Training accuracy: 0.600000 loss: 1.148123
-Test accuracy: 0.520000 loss: 1.381183
+Training accuracy: 0.680000 loss: 0.881590
+Test accuracy: 0.560000 loss: 1.384430
 Step Count:260
-Training accuracy: 0.680000 loss: 0.847282
-Test accuracy: 0.400000 loss: 1.684804
+Training accuracy: 0.620000 loss: 1.077317
+Test accuracy: 0.520000 loss: 1.472870
 Step Count:270
-Training accuracy: 0.660000 loss: 0.840463
-Test accuracy: 0.480000 loss: 1.547264
+Training accuracy: 0.740000 loss: 0.827151
+Test accuracy: 0.560000 loss: 1.240044
 Step Count:280
-Training accuracy: 0.640000 loss: 1.107690
-Test accuracy: 0.560000 loss: 1.201336
+Training accuracy: 0.720000 loss: 0.795098
+Test accuracy: 0.620000 loss: 1.027534
 Step Count:290
-Training accuracy: 0.600000 loss: 0.953032
-Test accuracy: 0.500000 loss: 1.492996
+Training accuracy: 0.780000 loss: 0.679030
+Test accuracy: 0.500000 loss: 1.554821
 Step Count:300
-Training accuracy: 0.640000 loss: 0.922153
-Test accuracy: 0.500000 loss: 1.445472
+Training accuracy: 0.680000 loss: 0.811401
+Test accuracy: 0.500000 loss: 1.480436
 Step Count:310
-Training accuracy: 0.740000 loss: 0.842868
-Test accuracy: 0.520000 loss: 1.337980
+Training accuracy: 0.740000 loss: 0.828852
+Test accuracy: 0.600000 loss: 1.018004
 Step Count:320
-Training accuracy: 0.880000 loss: 0.390500
-Test accuracy: 0.580000 loss: 1.391234
+Training accuracy: 0.860000 loss: 0.460642
+Test accuracy: 0.580000 loss: 1.441083
 Step Count:330
-Training accuracy: 0.760000 loss: 0.594415
-Test accuracy: 0.600000 loss: 1.452122
+Training accuracy: 0.720000 loss: 0.770824
+Test accuracy: 0.680000 loss: 1.152033
 Step Count:340
-Training accuracy: 0.840000 loss: 0.731245
-Test accuracy: 0.580000 loss: 1.426829
+Training accuracy: 0.700000 loss: 0.785494
+Test accuracy: 0.620000 loss: 0.950005
 Step Count:350
-Training accuracy: 0.860000 loss: 0.576359
-Test accuracy: 0.560000 loss: 1.156980
+Training accuracy: 0.740000 loss: 0.854282
+Test accuracy: 0.500000 loss: 1.336991
 Step Count:360
-Training accuracy: 0.660000 loss: 1.141711
-Test accuracy: 0.520000 loss: 1.138081
+Training accuracy: 0.820000 loss: 0.515661
+Test accuracy: 0.540000 loss: 1.551084
 Step Count:370
-Training accuracy: 0.740000 loss: 0.683941
-Test accuracy: 0.580000 loss: 1.276655
+Training accuracy: 0.840000 loss: 0.575622
+Test accuracy: 0.520000 loss: 1.271566
 Step Count:380
-Training accuracy: 0.740000 loss: 0.511288
-Test accuracy: 0.580000 loss: 1.329376
+Training accuracy: 0.820000 loss: 0.614182
+Test accuracy: 0.480000 loss: 1.479810
 Step Count:390
-Training accuracy: 0.840000 loss: 0.620680
-Test accuracy: 0.540000 loss: 1.452734
+Training accuracy: 0.820000 loss: 0.627201
+Test accuracy: 0.440000 loss: 1.821722
 Step Count:400
-Training accuracy: 0.860000 loss: 0.469796
-Test accuracy: 0.500000 loss: 1.443184
+Training accuracy: 0.840000 loss: 0.564073
+Test accuracy: 0.600000 loss: 1.387471
 Step Count:410
-Training accuracy: 0.860000 loss: 0.363957
-Test accuracy: 0.460000 loss: 1.604664
+Training accuracy: 0.740000 loss: 0.645492
+Test accuracy: 0.420000 loss: 1.622247
 Step Count:420
-Training accuracy: 0.780000 loss: 0.537453
-Test accuracy: 0.640000 loss: 0.994815
+Training accuracy: 0.820000 loss: 0.536258
+Test accuracy: 0.440000 loss: 1.812660
 Step Count:430
-Training accuracy: 0.700000 loss: 0.679796
-Test accuracy: 0.480000 loss: 1.914203
+Training accuracy: 0.780000 loss: 0.619495
+Test accuracy: 0.540000 loss: 1.414596
 Step Count:440
-Training accuracy: 0.820000 loss: 0.622784
-Test accuracy: 0.540000 loss: 1.335259
+Training accuracy: 0.820000 loss: 0.622481
+Test accuracy: 0.580000 loss: 1.245681
 Step Count:450
-Training accuracy: 0.880000 loss: 0.413695
-Test accuracy: 0.460000 loss: 2.111168
+Training accuracy: 0.880000 loss: 0.318574
+Test accuracy: 0.700000 loss: 0.966757
 Step Count:460
-Training accuracy: 0.820000 loss: 0.419386
-Test accuracy: 0.700000 loss: 1.069825
+Training accuracy: 0.820000 loss: 0.543248
+Test accuracy: 0.560000 loss: 1.246926
 Step Count:470
-Training accuracy: 0.840000 loss: 0.554443
-Test accuracy: 0.580000 loss: 1.089644
+Training accuracy: 0.900000 loss: 0.401144
+Test accuracy: 0.520000 loss: 1.887318
 Step Count:480
-Training accuracy: 0.840000 loss: 0.404965
-Test accuracy: 0.460000 loss: 2.137552
+Training accuracy: 0.860000 loss: 0.440558
+Test accuracy: 0.440000 loss: 1.738479
 Step Count:490
-Training accuracy: 0.860000 loss: 0.507369
-Test accuracy: 0.440000 loss: 1.524285
+Training accuracy: 0.880000 loss: 0.301086
+Test accuracy: 0.560000 loss: 1.291636
 Step Count:500
-Training accuracy: 0.840000 loss: 0.480875
-Test accuracy: 0.580000 loss: 1.283059
+Training accuracy: 0.900000 loss: 0.399098
+Test accuracy: 0.580000 loss: 1.221489
 Step Count:510
-Training accuracy: 0.920000 loss: 0.227361
-Test accuracy: 0.520000 loss: 1.679599
+Training accuracy: 0.780000 loss: 0.501393
+Test accuracy: 0.480000 loss: 1.622447
 Step Count:520
-Training accuracy: 0.920000 loss: 0.280629
-Test accuracy: 0.500000 loss: 1.674562
+Training accuracy: 0.920000 loss: 0.289769
+Test accuracy: 0.640000 loss: 0.987630
 Step Count:530
-Training accuracy: 0.900000 loss: 0.459805
-Test accuracy: 0.540000 loss: 1.765498
+Training accuracy: 0.920000 loss: 0.370893
+Test accuracy: 0.600000 loss: 1.285684
 Step Count:540
-Training accuracy: 0.860000 loss: 0.498487
-Test accuracy: 0.600000 loss: 1.119113
+Training accuracy: 0.840000 loss: 0.407360
+Test accuracy: 0.480000 loss: 1.473630
 Step Count:550
-Training accuracy: 0.940000 loss: 0.206420
-Test accuracy: 0.580000 loss: 1.321714
+Training accuracy: 0.880000 loss: 0.339434
+Test accuracy: 0.620000 loss: 1.037693
 Step Count:560
-Training accuracy: 0.880000 loss: 0.361251
-Test accuracy: 0.580000 loss: 1.683687
+Training accuracy: 0.960000 loss: 0.188226
+Test accuracy: 0.520000 loss: 1.434479
 Step Count:570
-Training accuracy: 0.840000 loss: 0.432864
-Test accuracy: 0.580000 loss: 1.624391
+Training accuracy: 0.840000 loss: 0.411610
+Test accuracy: 0.620000 loss: 0.954385
 Step Count:580
-Training accuracy: 0.900000 loss: 0.296275
-Test accuracy: 0.620000 loss: 1.642643
+Training accuracy: 0.880000 loss: 0.499667
+Test accuracy: 0.660000 loss: 1.218132
 Step Count:590
-Training accuracy: 0.860000 loss: 0.377246
-Test accuracy: 0.560000 loss: 1.654982
+Training accuracy: 0.860000 loss: 0.247828
+Test accuracy: 0.600000 loss: 1.303010
 Step Count:600
-Training accuracy: 0.940000 loss: 0.207091
-Test accuracy: 0.580000 loss: 1.538464
+Training accuracy: 0.940000 loss: 0.213956
+Test accuracy: 0.600000 loss: 1.504520
 Step Count:610
-Training accuracy: 0.900000 loss: 0.375950
-Test accuracy: 0.420000 loss: 2.370584
+Training accuracy: 0.880000 loss: 0.332212
+Test accuracy: 0.540000 loss: 1.466209
 Step Count:620
-Training accuracy: 0.940000 loss: 0.341906
-Test accuracy: 0.540000 loss: 1.388391
+Training accuracy: 0.980000 loss: 0.217479
+Test accuracy: 0.540000 loss: 1.548892
 Step Count:630
-Training accuracy: 0.840000 loss: 0.378798
-Test accuracy: 0.560000 loss: 1.868995
+Training accuracy: 0.880000 loss: 0.413868
+Test accuracy: 0.560000 loss: 1.450977
 Step Count:640
-Training accuracy: 0.880000 loss: 0.324516
-Test accuracy: 0.580000 loss: 1.833357
+Training accuracy: 0.960000 loss: 0.170945
+Test accuracy: 0.540000 loss: 1.641905
 Step Count:650
-Training accuracy: 0.940000 loss: 0.252826
-Test accuracy: 0.740000 loss: 0.944803
+Training accuracy: 0.900000 loss: 0.351755
+Test accuracy: 0.680000 loss: 1.151826
 Step Count:660
-Training accuracy: 0.940000 loss: 0.282403
-Test accuracy: 0.660000 loss: 1.708514
+Training accuracy: 0.960000 loss: 0.225137
+Test accuracy: 0.520000 loss: 1.515885
 Step Count:670
-Training accuracy: 0.920000 loss: 0.216578
-Test accuracy: 0.620000 loss: 1.479366
+Training accuracy: 0.880000 loss: 0.349263
+Test accuracy: 0.640000 loss: 1.240239
 Step Count:680
-Training accuracy: 0.900000 loss: 0.260278
-Test accuracy: 0.780000 loss: 0.733997
+Training accuracy: 0.960000 loss: 0.277657
+Test accuracy: 0.540000 loss: 1.204715
 Step Count:690
-Training accuracy: 0.920000 loss: 0.244178
-Test accuracy: 0.540000 loss: 1.543465
+Training accuracy: 1.000000 loss: 0.105896
+Test accuracy: 0.520000 loss: 1.262872
 Step Count:700
-Training accuracy: 0.960000 loss: 0.183753
-Test accuracy: 0.580000 loss: 1.976194
+Training accuracy: 0.900000 loss: 0.262010
+Test accuracy: 0.560000 loss: 1.394675
 Step Count:710
-Training accuracy: 0.840000 loss: 0.362437
-Test accuracy: 0.580000 loss: 1.569435
+Training accuracy: 0.920000 loss: 0.224414
+Test accuracy: 0.600000 loss: 1.590447
 Step Count:720
-Training accuracy: 0.980000 loss: 0.079233
-Test accuracy: 0.620000 loss: 1.875088
+Training accuracy: 1.000000 loss: 0.073235
+Test accuracy: 0.600000 loss: 1.047025
 Step Count:730
-Training accuracy: 0.960000 loss: 0.132465
-Test accuracy: 0.480000 loss: 1.944702
+Training accuracy: 0.940000 loss: 0.299871
+Test accuracy: 0.560000 loss: 1.693118
 Step Count:740
-Training accuracy: 0.920000 loss: 0.194605
-Test accuracy: 0.580000 loss: 1.718747
+Training accuracy: 0.960000 loss: 0.185249
+Test accuracy: 0.520000 loss: 1.648679
 Step Count:750
-Training accuracy: 0.940000 loss: 0.260561
-Test accuracy: 0.580000 loss: 1.816055
+Training accuracy: 0.920000 loss: 0.198804
+Test accuracy: 0.600000 loss: 1.451592
 Step Count:760
-Training accuracy: 0.960000 loss: 0.148086
-Test accuracy: 0.580000 loss: 1.444059
+Training accuracy: 0.920000 loss: 0.193176
+Test accuracy: 0.580000 loss: 1.428624
 Step Count:770
-Training accuracy: 0.960000 loss: 0.151083
-Test accuracy: 0.540000 loss: 1.699009
-Step Count:780
-Training accuracy: 0.960000 loss: 0.150814
-Test accuracy: 0.720000 loss: 1.109590
-Step Count:790
-Training accuracy: 0.980000 loss: 0.086481
-Test accuracy: 0.640000 loss: 1.491614
-Step Count:800
-Training accuracy: 0.980000 loss: 0.090646
-Test accuracy: 0.740000 loss: 1.068663
-Step Count:810
-Training accuracy: 1.000000 loss: 0.043242
-Test accuracy: 0.700000 loss: 1.132097
-Step Count:820
-Training accuracy: 0.980000 loss: 0.102767
-Test accuracy: 0.460000 loss: 2.357447
-Step Count:830
-Training accuracy: 0.960000 loss: 0.128075
-Test accuracy: 0.500000 loss: 2.071377
+Training accuracy: 0.900000 loss: 0.242139
+Test accuracy: 0.640000 loss: 1.250827
 
 Process finished with exit code 1
