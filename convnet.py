@@ -26,9 +26,12 @@ input_placeholder = tf.placeholder(tf.float32, shape=[None, 32, 32 ,3])
 # View sample inputs in tensorboard
 tf.summary.image("input_image", input_placeholder)
 
+# randomly flips the image in order to doubles dataset size
+random_image = tf.map_fn(lambda frame: tf.image.random_flip_left_right(frame), input_placeholder)
+
 # Normalize image
 # Subtract off the mean and divide by the variance of the pixels.
-normalized_image = tf.map_fn(lambda frame: tf.image.per_image_standardization(frame), input_placeholder)
+normalized_image = tf.map_fn(lambda frame: tf.image.per_image_standardization(frame), random_image)
 
 conv_layer_1 = tf.layers.conv2d(normalized_image,
                                     filters=42,
