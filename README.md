@@ -1,6 +1,6 @@
 # DeepLearningConvolutionalNeuralNetwork   
 
-BBDS Deep Learning   
+Adding tf.image.random_flip_left_right helped to improve accuracy by 10%.  
 
 # Here is an example output from a training   
 Step Count:1490
