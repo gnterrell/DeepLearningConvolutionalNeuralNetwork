@@ -2,7 +2,7 @@
 Feature visualization on different parts of the network
 
 Visualization Network Layer 1
-![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz-1.png "Conv_Layer_1")   
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz-1.png "feature_viz_1")   
 
 # Data Augmentation
 Adding tf.image.random_flip_left_right helped to improve accuracy by 10%.  
