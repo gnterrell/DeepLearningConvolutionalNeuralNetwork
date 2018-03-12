@@ -1,8 +1,23 @@
 # DeepLearningConvolutionalNeuralNetwork   
 Feature visualization on different parts of the network
 
-Viz1
-![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_1.png "Viz1")  
+Conv_Layer1
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_1.png "Conv_Layer1")  
+
+Conv_Layer2
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_2.png "Conv_Layer2")  
+
+Conv_Layer3
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_3.png "Conv_Layer3")  
+
+Conv_Layer4
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_4.png "Conv_Layer4")  
+
+Conv_Layer5
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_5.png "Conv_Layer5")  
+
+Conv_Layer6
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_6.png "Conv_Layer6")  
 
 # Data Augmentation
 Adding tf.image.random_flip_left_right helped to improve accuracy by 10%.  
