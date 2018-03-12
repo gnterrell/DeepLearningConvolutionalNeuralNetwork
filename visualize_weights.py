@@ -145,11 +145,11 @@ saver = tf.train.Saver(variables)
 ## Loss function to optimize for a single feature (#5) in layer 1
 feature_mask = tf.constant([[
    [1 if feature == 5 else 0
-     for feature in range(42)]
-    for y in range(32)]
-    for x in range(32)],
+     for feature in range(168)]
+    for y in range(8)]
+    for x in range(8)],
     tf.float32)
-loss = -1 * tf.reduce_mean(conv_layer_1 * feature_mask)
+loss = -1 * tf.reduce_mean(conv_layer_6 * feature_mask)
 
 
 ## backpropagation algorithm
