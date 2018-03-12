@@ -1,5 +1,10 @@
 # DeepLearningConvolutionalNeuralNetwork   
+Feature visualization on different parts of the network
 
+Viz1
+![alt text](https://raw.githubusercontent.com/gnterrell/DeepLearningConvolutionalNeuralNetwork/master/feature_viz_1.png "Viz1")  
+
+# Data Augmentation
 Adding tf.image.random_flip_left_right helped to improve accuracy by 10%.  
 
 # Here is an example output from a training   
